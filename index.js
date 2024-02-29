@@ -9,7 +9,7 @@ const start = async () => {
     let { wea, low, high } = await getWeather(params);
     let loveDays = getLoveDays();
 
-    let txt = await getLoveWords()
+    // let txt = await getLoveWords()
     console.log(txt,111)
 
     const data = {
@@ -19,7 +19,7 @@ const start = async () => {
         low: { value: low },
         high: { value: high },
         days: { value: loveDays },
-        txt: {value: txt},
+        txt: {value: '1111'},
     }
 
     sendMessage({
