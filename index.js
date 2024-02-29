@@ -10,7 +10,6 @@ const start = async () => {
     let loveDays = getLoveDays();
 
     // let txt = await getLoveWords()
-    console.log(txt,111)
 
     const data = {
         today: { value: getDate() },
